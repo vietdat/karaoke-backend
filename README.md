@@ -4,8 +4,8 @@ FeathersJS backend for a karaoke app.
 
 ## What it does
 
-- Backend API for the karaoke app (songs, rooms, users)
-- Real-time updates via FeathersJS / Socket.io
+- Backend API for the karaoke app (songs, stores, users)
+- REST API via FeathersJS / Express
 - Configuration in `config/` — production config holds only a host and a `PORT` placeholder, no secrets
 
 ## Tech
@@ -13,6 +13,8 @@ FeathersJS backend for a karaoke app.
 - JavaScript
 - Node.js
 - FeathersJS
+- Express
+- MongoDB (Mongoose)
 
 ## Run it
 
@@ -21,8 +23,18 @@ npm install
 npm start
 ```
 
-(Verify the scripts above against `package.json` before running — the exact commands live there.)
+Copy `.env.example` to `.env` and set `MONGODB_URI` before starting. For development with auto-reload, use `npm run dev` instead of `npm start`.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Unlicense — see [LICENSE](LICENSE).
+
+
+
+
+
+
+
+
+
+

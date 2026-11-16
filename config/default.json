@@ -6,5 +6,5 @@
     "default": 10,
     "max": 50
   },
-  "mongodb": "mongodb://datle:tumotdenchin@ds157380.mlab.com:57380/learnmongodb"
+  "mongodb": "mongodb://localhost:27017/karaoke"
 }
